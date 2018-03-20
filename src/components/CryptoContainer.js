@@ -27,6 +27,8 @@ class CryptoContainer extends Component {
     }
 
 
+
+
     render() {
 
         const { crypto } = this.props;
