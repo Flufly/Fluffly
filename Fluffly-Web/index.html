@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Flufly</title>
+
+    <link href="https://bootswatch.com/4/yeti/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-custom.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Flufly</a>
+
+    </nav>
+
+    <main role="main" class="container">
+
+          <div class="starter-template">
+            <h1></h1>
+            <p class="lead"><strong>Cryptocurrency Market Tracker</strong><br>Below are the most current exchange rates (in USD) of the top cryptocurrency.</p>
+                    <br>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card card-header">
+                  <span = "inline">
+                    <img src="img/bitcoin.png " alt="bitcoin" >
+                    &nbsp;&nbsp;
+                      <span class="upperdetail card-title">
+                        <span id="bitsymbol" class="symbol"></span> | <span id="bitname" class="name"></span><br>
+                         &nbsp;&nbsp;<span id="pribit" class="usd"></span>
+                      </span>
+                    </span>
+
+                    <div class="lowerdetail">
+                    <hr>
+                    <br>
+                    24h - <span id="bit24h" class="24h"></span> 7d - <span id="bit7d" class="7d"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main><!-- /.container -->
+    <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  </script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
