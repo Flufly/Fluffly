@@ -2,11 +2,10 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 const Header = () => {
-    console.log('debuggin');
     return (
         <View style={headerContainer}>
             <Text style={header}>
-                Cryptocurrency App
+                Fluffly
             </Text>
         </View>
     )
