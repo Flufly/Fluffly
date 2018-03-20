@@ -1,5 +1,5 @@
 import React from 'react';
-import { 
+import {
     View,
     Text,
     StyleSheet,
@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         borderBottomColor: "#e5e5e5",
         borderBottomWidth: 3,
-        padding: 20
+        padding: 20,
+        backgroundColor: "#43cea2"
     },
     upperRow: {
         display: "flex",
@@ -24,21 +25,25 @@ const styles = StyleSheet.create({
         marginTop: 10,
         marginLeft: 20,
         marginRight: 5,
-        fontWeight: "bold",        
+        fontWeight: "bold",
+        color:"#fff"
     },
     coinName: {
         marginTop: 10,
         marginLeft: 5,
-        marginRight: 20
+        marginRight: 20,
+        color:"#fff"
     },
     seperator: {
         marginTop: 10,
+        color:"#fff"
     },
     coinPrice: {
         marginTop: 10,
         marginLeft: "auto",
         marginRight: 10,
-        fontWeight: "bold",        
+        fontWeight: "bold",
+        color:"#fff"
     },
     image: {
         width: 35,
@@ -53,10 +58,11 @@ const styles = StyleSheet.create({
         borderTopWidth: 2,
         padding: 10,
         flexDirection: "row",
-        justifyContent: "space-around"
+        justifyContent: "space-around",
+
     },
     percentChangePlus: {
-        color: "#00BFA5",
+        color: "#185a9d",
         fontWeight: "bold",
         marginLeft: 5
     },
@@ -67,7 +73,7 @@ const styles = StyleSheet.create({
     }
 })
 
-const { 
+const {
     container,
     image,
     moneySymbol,
@@ -82,8 +88,8 @@ const {
 } = styles;
 
 const CoinCard = ({ symbol, coin_name, price_usd, percent_change_24h, percent_change_7d }) => {
- 
-    
+
+
     return (
         <View style={container}>
 
@@ -111,7 +117,7 @@ const CoinCard = ({ symbol, coin_name, price_usd, percent_change_24h, percent_ch
 
             </View>
 
-        </View> 
+        </View>
     );
 }
 
