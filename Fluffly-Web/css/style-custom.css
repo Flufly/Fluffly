@@ -1,34 +1,12 @@
 body{
-  background: url('../img/clouds.jpg');
+  background: url('../img/Clouds.jpg');
   background-size: cover;
-  color: #532827;
 }
 
-.container {
-
-}
 img{
-  margin-top: 15px;
+  margin-top: 0px;
   margin-left: 20px;
   height: 80px;
   width: 80px;
- float: left;
-
- vertical-align: middle;
-
-
-}
-.card{
-      border-radius: 8px;
-      font-size: 20px;
-
-}
-.upperdetail{
-  text-align: center;
-  position: relative;
-  top: 27px;
-}
-.lowerdetail{
-  padding-bottom: 20px;
-  padding-top: 10px;
+  float: left;
 }
