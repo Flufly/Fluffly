@@ -1,0 +1,15 @@
+.navbar {
+  overflow: hidden;
+  background-color: #007991;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 10%;
+  left: 0;
+  padding-left: 0;
+}
+
+body{
+  background: #78ffd6;  /* fallback for old browsers */
+/* */
+}
