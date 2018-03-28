@@ -39,9 +39,9 @@ export default function(state = initialState, action) {
                 errorMessage: action.err
             });
 
-
+    
         default:
             return state;
     }
-
+    
 }

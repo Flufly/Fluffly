@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <View style={headerContainer}>
             <Text style={header}>
-                Fluffly
+                Cryptocurrency App
             </Text>
         </View>
     )
@@ -15,18 +15,14 @@ const Header = () => {
 const styles = StyleSheet.create({
     headerContainer: {
         display: "flex",
-        backgroundColor: "#fff",
         marginTop: 55,
         alignItems: "center",
     },
     header: {
-        fontWeight: "bold",
-        fontSize: 40,
-        color: "#000"
+        fontWeight: "bold",        
+        fontSize: 20,
     }
 })
-
-
 
 const { headerContainer, header } = styles;
 
